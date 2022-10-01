@@ -10,7 +10,6 @@
 body {
     font-family: Buda, sans-serif;
     font-weight: 300;
-    max-width: 1200px;
     margin: 0 auto;
     color: #3a3a3a;
 }
@@ -74,6 +73,7 @@ h1, h2 {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 
 /* zoom level for main image */
 
