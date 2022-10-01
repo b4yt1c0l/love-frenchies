@@ -14,3 +14,17 @@ body {
     margin: 0 auto;
     color: #3a3a3a;
 }
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: orangered;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
