@@ -84,3 +84,23 @@ h1, h2 {
         transform: scale(1.1);
     }
 }
+
+#main-cover {
+    font-size: 100%;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 350px;
+    height: 100px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(160, 240, 107, 0.7);
+
+    bottom: 30px;
+    right: 70px;
+
+    position: absolute;
+}
