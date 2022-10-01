@@ -67,6 +67,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url('../images/main-frenchie.jpg') no-repeat center center;
+    
 
     /* zoom effect on loading page */
     animation-name: frenchies-zoom;
@@ -103,4 +104,49 @@ h1, h2 {
     right: 70px;
 
     position: absolute;
+}
+
+/* the borg community */
+
+#community {
+    height: 600px;
+    margin-top: 10px;
+}
+
+#borg-header {
+    text-align: center;
+}
+
+#left-community {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    
+}
+
+#right-community {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-community {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-community-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
