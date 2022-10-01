@@ -55,10 +55,32 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* main kali image */
+/* main image */
 
-#kali-image {
+#main-image {
     height: 600px;
     width: 100%;
-    background: url('../images/kali-main.jpg') no-repeat center center;
+    overflow: hidden;
+}
+
+#frenchies-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/main-frenchie.jpg') no-repeat center center;
+
+    /* zoom effect on loading page */
+    animation-name: frenchies-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* zoom level for main image */
+
+@keyframes frenchies-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
