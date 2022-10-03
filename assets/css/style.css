@@ -65,7 +65,7 @@ h1, h2 {
 #frenchies-image {
     height: 600px;
     width: 100%;
-    background: url('../images/main-frenchie.jpg') no-repeat center center;
+    background: url('../images/frenchbulldog.jpg') no-repeat center center;
     
 
     /* zoom effect on loading page */
@@ -100,8 +100,8 @@ h1, h2 {
 
     background-color: rgba(160, 240, 107, 0.7);
 
-    bottom: 30px;
-    right: 70px;
+    bottom: 120px;
+    right: 160px;
 
     position: absolute;
 }
@@ -111,10 +111,13 @@ h1, h2 {
 #community {
     height: 600px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #borg-header {
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #left-community {
@@ -128,7 +131,6 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
 }
 
 #center-community {
@@ -149,4 +151,21 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+}
+
+.left-community-heading h2 {
+    font-size: 100%;
+}
+
+.right-community-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-community-heading h2 {
+    font-size: 100%;
+    text-align: right;
 }
