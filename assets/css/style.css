@@ -33,6 +33,7 @@ h1, h2 {
 #menu {
     font-size: 120%;
     letter-spacing: 4%;
+    padding-top: 14px;
 }
 
 #menu li {
@@ -137,7 +138,6 @@ h1, h2 {
 #center-community {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 }
 
 hr {
@@ -169,4 +169,21 @@ hr {
 .right-community-heading h2 {
     font-size: 100%;
     text-align: right;
+}
+
+#center-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#center-cover {
+    background: url('../images/Fun-facts-about-French-Bulldog-01.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
