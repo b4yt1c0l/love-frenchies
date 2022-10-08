@@ -255,3 +255,16 @@ hr {
 .social-networks-link li a {
     padding-bottom: 30px;
 }
+
+/* gallery page*/
+
+#gallery-images {
+    clear: both;
+    line-height: 0;
+    column-count: 5;
+    column-gap: 0;
+}
+
+#gallery-images > img {
+    width: 100%;
+}
