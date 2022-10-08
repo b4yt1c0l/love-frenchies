@@ -61,6 +61,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    padding-top: 15px;
 }
 
 #frenchies-image {
@@ -136,6 +137,7 @@ h1, h2 {
 }
 
 #center-community {
+    padding-top: 30px;
     width: 33%;
     margin: 0 auto;
 }
@@ -171,6 +173,7 @@ hr {
     text-align: right;
 }
 
+
 #center-container {
     width: 300px;
     height: 300px;
@@ -187,3 +190,35 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+
+/* Clongriffin collective */
+
+#clongriffin-collective {
+    height: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#clongriffin-collective-header {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#clongriffin-collective-meetup {
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.clongriffin-iframe {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.clongriffin-iframe > iframe {
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
