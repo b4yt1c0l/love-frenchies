@@ -41,18 +41,22 @@
     
     <section class="form-section">
         <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-            <h2>Join community!</h2>
-            <label for="fname">First Name</label>
-            <input id="fname" name="first_name" type="text" required>
-            
-            <label for="lname">Last Name</label>
-            <input id="lname" name="last_name" type="text" required>
-            
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" required>
-            
-                       
-            <input class="join-button" type="submit" value="Let's Assimilate You!">
+            <h1 id="form-header">Join community!</h1>
+            <div class="form-box">
+                <label for="fname" class="form-label">First Name:</label>
+                <input id="fname" class="form-box-text text-box" name="first_name" type="text" required>
+            </div>
+            <div class="form-box">
+                <label for="lname" class="form-label">Last Name:</label>
+                <input id="lname" class="form-box-text text-box" name="last_name" type="text" required>
+            </div>
+            <div class="form-box">
+                <label for="email" class="form-label">Email Address:</label>
+                <input type="email" id="email" class="form-box-text text-box" name="email_address" required>
+            </div>
+            <div class="form-box">           
+                <input class="join-button form-box-text" type="submit" value="Let's Assimilate You!">
+            </div>
         </form>
     </section>
 

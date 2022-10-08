@@ -273,3 +273,44 @@ hr {
 #gallery-images > img {
     width: 100%;
 }
+
+/* join community form */
+
+.form-section {
+    width: 360px;
+    height: 230px;
+    padding-bottom: 20px;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+}
+
+#form-header {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.form-box {
+    width: 360px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+
+}
+
+.form-box-text {
+    height: 35px;
+    width: 200px;
+    border-color: orangered;
+}
+
+.form-label {
+    border: none;
+}
+
+.text-box {
+    border-style: solid;
+}
