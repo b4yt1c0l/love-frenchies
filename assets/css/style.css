@@ -330,7 +330,7 @@ hr {
 
 /* Media queries */
 
-/* For larger to medium screens size from 1200px wide and down */
+/* For larger to medium screens size */
 @media screen and (max-width: 1200px) {
     #community {
         width: 65%;
@@ -369,7 +369,7 @@ hr {
     }
 }
 
-/* For medium screen sizes from 950px wide and down */
+/* For medium screen sizes from 950px */
 @media screen and (max-width: 950px) {
 
     #menu {
