@@ -9,6 +9,8 @@ This site has been created for Star Trek fans Frenchies lovers. Due to Frenchies
 
 ##Features
 
+###Existing Features
+
 - __Navigation Bar__
     - A common responsive navigation bar for all three pages. That's permit the user to navigate among pages not using "back" or "forward" browser buttons.
 
@@ -48,6 +50,21 @@ This site has been created for Star Trek fans Frenchies lovers. Due to Frenchies
 
 ![Contact](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/contact_form.png)
 
-- __Features to Implement__
-    - A "Videos" section with funny videos collected during Sunday's meetings.
-    - A "History" page with info about Frenchies and Borg history.
+###Features to Implement_
+- A "Videos" section with funny videos collected during Sunday's meetings.
+- A "History" page with info about Frenchies and Borg history.
+
+##Testing
+    - This site has been tested on Firefox, Chrome, and Edge browsers.
+    - It has also been tested on tablet, smartphone, and using dev tools to validate it is responsive looking good on any screen size.
+    - The contact form has been tested to be sure all required fields are mandatory and only valid email address are accepted into the "Email Address" field. Submit button has been checked to verify it works as expected.
+
+###HTML and CSS validation
+    - No errors were reported while checking HTML code through W3C validator
+
+![HTML Validation](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/html_validator_1.png)
+
+    - No errors were reported while checking CSS code through (Jigsaw) CSS validator
+
+![CSS Validation](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/css_validator_1.png)
+
