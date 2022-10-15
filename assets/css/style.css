@@ -16,7 +16,7 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Lato, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -193,7 +193,7 @@ hr {
 }
 
 #center-cover {
-    background: url('../images/Fun-facts-about-French-Bulldog-01.jpg') no-repeat center center;
+    background: url('../images/fun-facts-about-french-bulldog-01.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
