@@ -277,7 +277,7 @@ hr {
 /* join community form */
 
 .form-section {
-    background: url('../css/images/seasons1.jpg') no-repeat center center;
+    background-color: bisque; 
     background-size: cover;
     background-position: center;
     height: 600px;
