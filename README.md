@@ -60,10 +60,13 @@ This site has been created for Star Trek fans Frenchies lovers. Due to Frenchies
     - The contact form has been tested to be sure all required fields are mandatory and only valid email address are accepted into the "Email Address" field. Submit button has been checked to verify it works as expected.
 
 ###HTML and CSS validation
+
+- __HTML__
     - No errors were reported while checking HTML code through W3C validator
 
 ![HTML Validation](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/html_validator_1.png)
 
+- __CSS__
     - No errors were reported while checking CSS code through (Jigsaw) CSS validator
 
 ![CSS Validation](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/css_validator_1.png)
