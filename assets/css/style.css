@@ -34,7 +34,7 @@ h1, h2, h3 {
 
 #menu {
     font-size: 120%;
-    letter-spacing: 4%;
+    letter-spacing: 4px;
     padding-top: 30px;
 }
 
@@ -433,5 +433,10 @@ hr {
         left: 25px;
         top: 100px;
         width: 300px;
+    }
+
+    #menu {
+        font-size: 70%;
+        float: center;
     }
 }
