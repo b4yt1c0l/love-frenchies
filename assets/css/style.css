@@ -330,7 +330,7 @@ hr {
 
 /* Media queries */
 
-/* For larger to medium screens size */
+/* For larger screens size */
 @media screen and (max-width: 1200px) {
     #community {
         width: 65%;
@@ -343,7 +343,7 @@ hr {
         margin: 0;
     }
 
-    #left-community, #right-community {
+    #left-community, #right-community, #frenchies-history, #borg-history {
         width: 100%;
         float: left;
         padding: 0;
@@ -411,9 +411,43 @@ hr {
         height: 30px;
         padding: 0;
     }
+
+    #history {
+        width: 100%;
+        margin: 0 auto;
+        overflow: scroll;
+    }
+
+    #frenchies-history {
+        margin-left: 0;
+        padding-left: 5px;
+        width: 40%;
+        height: 0;
+    }
+
+    #borg-history {
+        margin-right: 0;
+        padding-right: 5px;
+        width: 40%;
+        height: 0;
+    }
+
+    .frenchies-history-heading, .borg-history-heading {
+        width: inherit;
+    }
+
+    .frenchies-history-heading h2, .borg-history-heading h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 50%;
+    }
+
+    .frenchies-history-heading p, .borg-history-heading p {
+        text-align: center;
+        padding: 0 20px;
+        font-size: small;
+    }
 }
-
-
 
 
 /* For small screen sizes below 800px width */
@@ -439,4 +473,85 @@ hr {
         font-size: 70%;
         float: left;
     }
+
+    #history {
+        width: 100%;
+        margin: 0 auto;
+        overflow: scroll;
+    }
+
+    #frenchies-history {
+        margin-left: 0;
+        width: 45%;
+        height: 0;
+    }
+
+    #borg-history {
+        margin-right: 0;
+        width: 45%;
+        height: 0;
+    }
+
+    .frenchies-history-heading, .borg-history-heading {
+        width: inherit;
+    }
+
+    .frenchies-history-heading h2, .borg-history-heading h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 50%;
+    }
+
+    .frenchies-history-heading p, .borg-history-heading p {
+        text-align: center;
+        padding: 0 20px;
+        font-size: small;
+    }
+}
+
+/* History */
+
+#history {
+    height: 1000px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+#frenchies-history {
+    padding-top: 30px;
+    padding-left: 100px;
+    width: 40%;
+    float: left;
+}
+
+.frenchies-history-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.frenchies-history-heading h2 {
+    font-size: 100%;
+}
+
+#borg-history {
+    padding-top: 30px;
+    padding-right: 100px;
+    width: 40%;
+    float: right;
+}
+
+.borg-history-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.borg-history-heading h2 {
+    font-size: 100%;
 }
