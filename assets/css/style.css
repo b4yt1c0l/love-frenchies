@@ -221,13 +221,13 @@
      height: 600px;
 }
  .join-form {
-     margin: 150px 10% 0 0;
+     margin: 150px 10% 0 5%;
      color:#fff;
      background-color:rgba(241, 11, 11, 0.6);
-     max-width: 400px;
+     max-width: 100%;
      position: absolute;
-     left: 10%;
-     padding: 30px;
+     left: 6%;
+     padding: 30px; 
 }
  .join-form > h2 {
      color:#fafafa;

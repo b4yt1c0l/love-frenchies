@@ -87,6 +87,7 @@ This is a four pages site:
 ### Known bugs
 
 - History page meadia query for screen sizes below 500px. Shown text into history section is not correctly aligned.
+- Join form is not perfectly centered on some larger screen sizes. 
 
 ### Lighthouse
 
