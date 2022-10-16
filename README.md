@@ -83,11 +83,11 @@ This site has been created for Star Trek fans Frenchies lovers. Due to Frenchies
 
 Mobile:
 
-![Mobile](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/lighthose_mobile.png)
+![Mobile](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/lighthouse_mobile.png)
 
 Desktop:
 
-![Desktop](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/lighthose_desktop.png)
+![Desktop](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/lighthouse_desktop.png)
 
 ## Deployment
 Github has been used to deploy this site.
