@@ -9,10 +9,17 @@ This site has been created for Star Trek fans Frenchies lovers. Due to Frenchies
 
 ## Features
 
+This is a four pages site:
+
+1. Home
+2. History
+3. Gallery
+4. Contact
+
 ### Existing Features
 
 - __Navigation Bar__
-    - A common responsive navigation bar for all three pages. That's permit the user to navigate among pages not using "back" or "forward" browser buttons.
+    - A common responsive navigation bar for all four pages. That's permit the user to navigate among pages not using "back" or "forward" browser buttons.
 
 ![Nav](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/nav.png)
 
@@ -35,7 +42,7 @@ This site has been created for Star Trek fans Frenchies lovers. Due to Frenchies
 ![Collective](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/collective_map.png)
 
 - __Footer__
-    - The footer section is to provide social media links to keep in touch. Every link will be opned in a new tab to to make navigation easier. It's common to all three pages.
+    - The footer section is to provide social media links to keep in touch. Every link will be opned in a new tab to to make navigation easier. It's common to all four pages.
 
 ![Footer](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/footer.png)
 
@@ -55,11 +62,13 @@ This site has been created for Star Trek fans Frenchies lovers. Due to Frenchies
 
 ![Contact](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/contact_form.png)
 
-### Features to Implement_
+### Features to Implement
+
 - A "Videos" section with funny videos collected during Sunday's meetings.
 - A "History" page with info about Frenchies and Borg history.
 
 ## Testing
+
     - This site has been tested on Firefox, Chrome, and Edge browsers.
     - It has also been tested on tablet, smartphone, and using dev tools to validate it is responsive looking good on any screen size.
     - The contact form has been tested to be sure all required fields are mandatory and only valid email address are accepted into the "Email Address" field. Submit button has been checked to verify it works as expected.
@@ -77,6 +86,7 @@ This site has been created for Star Trek fans Frenchies lovers. Due to Frenchies
 ![CSS Validation](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/css_validator_1.png)
 
 ### Known bugs
+
 - History page meadia query for screen sizes below 500px. Shown text into history section is not correctly aligned.
 
 ### Lighthouse
@@ -89,7 +99,31 @@ Desktop:
 
 ![Desktop](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/lighthouse_desktop.png)
 
+## Technologies used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - Used to build basic blocks and to structure the content.
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+    - Used to style all the contents. 
+- [Google Fonts](https://fonts.google.com/)
+    - Used for the fonts of the website.
+- [Font Awesome](https://fontawesome.com/)
+    - Used for icons.
+- [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+    - Used for debug, and to test responsiveness.
+- [GitHub](https://github.com/)
+    - Used as repository to push code.
+- [Gitpod](https://www.gitpod.io/)
+    - Development environment.
+- [CSS Formatter](https://www.cleancss.com/)
+    - Used to have a better CSS formatted code.
+- [W3C Markup Validation Service](https://validator.w3.org/) 
+    - Used to validate HTML code.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - Used to validate CSS code.
+
 ## Deployment
+
 Github has been used to deploy this site.
 
 1. Log in to GitHub
@@ -99,4 +133,4 @@ Github has been used to deploy this site.
 5. In the source section, select branch 'main' and click "Save"
 6. The published site URL will be returned as below:
 
-![deploy](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/deploy.png)
+![Deploy](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/deploy.png)
