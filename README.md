@@ -132,7 +132,7 @@ Github has been used to deploy this site.
 5. In the source section, select branch 'main' and click "Save"
 6. The published site URL will be returned as below:
 
-![Deploy](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+![Deploy](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/deploy.png)
 
 ## Credits
 
@@ -140,7 +140,7 @@ Github has been used to deploy this site.
 
 I created this site based on Code Insitute example "Love Running" site. I inspired to it for the main structure, also reusing some part of that code.
 
-- [Love Running](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/deploy.png)
+- [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
 
 
 ### Content
