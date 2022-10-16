@@ -45,7 +45,7 @@ This site has been created for Star Trek fans Frenchies lovers. Due to Frenchies
 
 ![Gallery](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/gallery.png)
 
-__History__
+- __History__
     - This page is to provide an overview about Frenchies history and Borg character history.
 
 ![History](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/history.png)
