@@ -1,557 +1,448 @@
 @import url('https://fonts.googleapis.com/css2?family=Buda&family=Lato:wght@300&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-   
+ * {
+     margin: 0;
+     padding: 0;
+     border: none;
 }
-
-body {
-    font-family: Buda, sans-serif;
-    font-weight: 300;
-    margin: 0 auto;
-    color: #3a3a3a;
+ body {
+     font-family: Buda, sans-serif;
+     font-weight: 300;
+     margin: 0 auto;
+     color: #3a3a3a;
 }
-
 /* headings and logo */
-
-h1, h2, h3 {
-    font-family: Lato, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: orangered;
+ h1, h2, h3 {
+     font-family: Lato, sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     color: orangered;
 }
-
-#logo {
-    float: left;
-    font-size: 280%;
-    padding-bottom: 20px;
-    padding-top: 10px;
+ #logo {
+     float: left;
+     font-size: 280%;
+     padding-bottom: 20px;
+     padding-top: 10px;
 }
-
 /* menu links */
-
-#menu {
-    font-size: 120%;
-    letter-spacing: 4px;
-    padding-top: 30px;
+ #menu {
+     font-size: 120%;
+     letter-spacing: 4px;
+     padding-top: 30px;
 }
-
-#menu li {
-    float: right;
-    margin-right: 30px;
-    list-style-type: none;
+ #menu li {
+     float: right;
+     margin-right: 30px;
+     list-style-type: none;
 }
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
+ #menu a {
+     text-decoration: none;
+     color: inherit;
 }
-
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+ #menu a:hover {
+     border-bottom: 1px solid #3a3a3a;
 }
-
-#menu a:visited {
-    color: coral;
+ #menu a:visited {
+     color: coral;
 }
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
+ .active {
+     border-bottom: 1px solid #3a3a3a;
 }
-
-
 /* main image */
-
-#main-image {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 15px;
+ #main-image {
+     height: 600px;
+     width: 100%;
+     overflow: hidden;
+     padding-top: 15px;
 }
-
-#frenchies-image {
-    height: 600px;
-    width: 100%;
-    background: url('../images/frenchbulldog.jpg') no-repeat center center;
-    background-size: cover;
-    
-
+ #frenchies-image {
+     height: 600px;
+     width: 100%;
+     background: url('../images/frenchbulldog.jpg') no-repeat center center;
+     background-size: cover;
     /* zoom effect on loading page */
-    animation-name: frenchies-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+     animation-name: frenchies-zoom;
+     animation-duration: 5s;
+     animation-fill-mode: forwards;
 }
-
-
 /* zoom level for main image */
-
-@keyframes frenchies-zoom {
-    from{
-        transform: scale(1);
+ @keyframes frenchies-zoom {
+     from{
+         transform: scale(1);
     }
-    to{
-        transform: scale(1.1);
+     to{
+         transform: scale(1.1);
     }
 }
-
-#main-cover {
-    font-size: 100%;
-    font-family: Lato, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 350px;
-    height: 100px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(160, 240, 107, 0.7);
-
-    bottom: 120px;
-    right: 160px;
-
-    position: absolute;
+ #main-cover {
+     font-size: 100%;
+     font-family: Lato, sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     width: 350px;
+     height: 100px;
+     padding-top: 40px;
+     padding-left: 10px;
+     background-color: rgba(160, 240, 107, 0.7);
+     bottom: 120px;
+     right: 160px;
+     position: absolute;
 }
-
 /* the borg community */
-
-#community {
-    height: 500px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+ #community {
+     height: 500px;
+     margin-top: 10px;
+     margin-bottom: 10px;
 }
-
-#borg-header {
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+ #borg-header {
+     text-align: center;
+     margin-bottom: 20px;
+     margin-top: 20px;
 }
-
-#left-community {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-    
+ #left-community {
+     padding-top: 30px;
+     width: 33%;
+     float: left;
 }
-
-#right-community {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
+ #right-community {
+     padding-top: 30px;
+     width: 33%;
+     float: right;
 }
-
-#center-community {
-    padding-top: 30px;
-    width: 33%;
-    margin: 0 auto;
+ #center-community {
+     padding-top: 30px;
+     width: 33%;
+     margin: 0 auto;
 }
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
+ hr {
+     border-top: 1px solid #3a3a3a;
+     width: 100%;
+     margin: 5px 0;
 }
-
-.left-community-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+ .left-community-heading {
+     width: 60%;
+     float: right;
+     line-height: 20px;
+     clear: both;
+     margin-bottom: 50px;
 }
-
-.left-community-heading h2 {
-    font-size: 100%;
+ .left-community-heading h2 {
+     font-size: 100%;
 }
-
-.right-community-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+ .right-community-heading {
+     width: 60%;
+     float: left;
+     line-height: 20px;
+     clear: both;
+     margin-bottom: 50px;
 }
-
-.right-community-heading h2 {
-    font-size: 100%;
-    text-align: right;
+ .right-community-heading h2 {
+     font-size: 100%;
+     text-align: right;
 }
-
-
-#center-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
+ #center-container {
+     width: 300px;
+     height: 300px;
+     padding: 30px;
+     border-style: solid;
+     border-color: #ccc;
+     border-width: 1px;
+     border-radius: 50%;
+     margin: 0 auto;
 }
-
-#center-cover {
-    background: url('../images/fun-facts-about-french-bulldog-01.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
+ #center-cover {
+     background: url('../images/fun-facts-about-french-bulldog-01.jpg') no-repeat center center;
+     height: 100%;
+     border-radius: 50%;
 }
-
 /* Clongriffin collective */
-
-#clongriffin-collective {
-    height: 550px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+ #clongriffin-collective {
+     height: 550px;
+     margin-top: 10px;
+     margin-bottom: 10px;
 }
-
-#clongriffin-collective-header {
-    text-align: center;
-    margin-bottom: 20px;
+ #clongriffin-collective-header {
+     text-align: center;
+     margin-bottom: 20px;
 }
-
-#clongriffin-collective-meetup {
-    text-align: center;
-    margin-bottom: 30px;
-    
+ #clongriffin-collective-meetup {
+     text-align: center;
+     margin-bottom: 30px;
 }
-
-.clongriffin-iframe {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+ .clongriffin-iframe {
+     display: flex;
+     justify-content: center;
+     width: 100%;
 }
-
-.clongriffin-iframe > iframe {
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-
-  /* footer */
-
-.footer {
-    height: 150px;
-    width: 100%;
-    position: absolute;
-    overflow: hidden;
-
+ .clongriffin-iframe > iframe {
+     top: 0;
+     left: 0;
+     width: 100%;
 }
-
-.social-networks-links {
-    text-align: center;
+/* footer */
+ .footer {
+     height: 150px;
+     width: 100%;
+     position: absolute;
+     overflow: hidden;
 }
-
-.social-networks-links > li {
-    display: inline;
-    padding: 0% 5% 0% 5%;
+ .social-networks-links {
+     text-align: center;
 }
-
-.social-networks-links i {
-    font-size: 160%;
-    margin-bottom: 15%;
-    padding-bottom: 2%;
-    padding-top: 3%;
-    color: blue;
-    height: 100px; 
+ .social-networks-links > li {
+     display: inline;
+     padding: 0% 5% 0% 5%;
 }
-
-.social-networks-link li a {
-    padding-bottom: 30px;
+ .social-networks-links i {
+     font-size: 160%;
+     margin-bottom: 15%;
+     padding-bottom: 2%;
+     padding-top: 3%;
+     color: blue;
+     height: 100px;
 }
-
+ .social-networks-link li a {
+     padding-bottom: 30px;
+}
 /* gallery page*/
-
-#gallery-images {
-    clear: both;
-    line-height: 0;
-    column-count: 5;
-    column-gap: 0;
+ #gallery-images {
+     clear: both;
+     line-height: 0;
+     column-count: 5;
+     column-gap: 0;
 }
-
-#gallery-images > img {
-    width: 100%;
+ #gallery-images > img {
+     width: 100%;
 }
-
 /* join community form */
-
-.form-section {
-    background-color: bisque; 
-    background-size: cover;
-    background-position: center;
-    height: 600px;
+ .form-section {
+     background-color: bisque;
+     background-size: cover;
+     background-position: center;
+     height: 600px;
 }
-
-.join-form {
-    margin: 150px 10% 0 0;
-    color:#fff;
-    background-color:rgba(241, 11, 11, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
+ .join-form {
+     margin: 150px 10% 0 0;
+     color:#fff;
+     background-color:rgba(241, 11, 11, 0.6);
+     max-width: 400px;
+     position: absolute;
+     left: 10%;
+     padding: 30px;
 }
-
-.join-form > h2 {
-    color:#fafafa;
-    margin-bottom: 20px;
+ .join-form > h2 {
+     color:#fafafa;
+     margin-bottom: 20px;
 }
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
+ .text-input {
+     background: transparent;
+     color: #fafafa;
+     width: 100%;
+     height: 25px;
+     margin: 5px 0 20px 0;
+     border: 1px solid #fafafa;
+     border-radius: 2px;
 }
-
-.text-input:hover {
-    border-color: yellow;
+ .text-input:hover {
+     border-color: yellow;
 }
-
-.discover-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #569215;
-    color: #fafafa;
-    display: block;
+ .discover-button {
+     margin-top: 20px;
+     border-radius: 2px;
+     padding: 15px 32px 15px 32px;
+     text-align: center;
+     font-size: 100%;
+     background-color: #569215;
+     color: #fafafa;
+     display: block;
 }
-
-.discover-button:hover {
-    background-color: #fafafa;
-    color: #371592;
+ .discover-button:hover {
+     background-color: #fafafa;
+     color: #371592;
 }
-
 /* Media queries */
-
 /* For larger screens size */
-@media screen and (max-width: 1200px) {
-    #community {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
+ @media screen and (max-width: 1200px) {
+     #community {
+         width: 65%;
+         height: 1200px;
+         margin: 0 auto;
     }
-
-    #borg-header {
-        padding: 30px 0;
-        margin: 0;
+     #borg-header {
+         padding: 30px 0;
+         margin: 0;
     }
-
-    #left-community, #right-community, #frenchies-history, #borg-history {
-        width: 100%;
-        float: left;
-        padding: 0;
+     #left-community, #right-community, #frenchies-history, #borg-history {
+         width: 100%;
+         float: left;
+         padding: 0;
     }
-
-    #center-community {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
+     #center-community {
+         clear: both;
+         width: 100%;
+         float: left;
+         padding: 0;
     }
-
-    #clongriffin-collective > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
+     #clongriffin-collective > div {
+         width: 100%;
+         clear: both;
+         height: 150px;
+         padding: 0;
     }
-
-    
-    hr {
-        display: none;
+     hr {
+         display: none;
     }
 }
-
 /* For medium screen sizes from 950px */
-@media screen and (max-width: 950px) {
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
+ @media screen and (max-width: 950px) {
+     #menu {
+         clear: left;
+         float: left;
+         margin-left: 30px;
+         margin-bottom: 20px;
+         line-height: 25px;
     }
-
-    #main-cover {
-        left: 30px;
-        top: 100px;
+     #main-cover {
+         left: 30px;
+         top: 100px;
     }
-
-    #community {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
+     #community {
+         width: 90%;
+         height: 1200px;
+         margin: 0 auto;
     }
-
-    .left-community-heading, .right-community-heading {
-        width: inherit;
+     .left-community-heading, .right-community-heading {
+         width: inherit;
     }
-
-    .left-community-heading h2, .right-community-heading h2 {
-        width: 100%;
-        text-align: center;
+     .left-community-heading h2, .right-community-heading h2 {
+         width: 100%;
+         text-align: center;
     }
-
-    .left-communtiy-heading p, .right-community-heading p {
-        text-align: center;
-        padding: 0 20px;
+     .left-communtiy-heading p, .right-community-heading p {
+         text-align: center;
+         padding: 0 20px;
     }
-
-    #clongriffin-collective > div {
-        width: 100%;
-        clear: both;
-        height: 30px;
-        padding: 0;
+     #clongriffin-collective > div {
+         width: 100%;
+         clear: both;
+         height: 30px;
+         padding: 0;
     }
-
-    #history {
-        width: 100%;
-        margin: 0 auto;
-        overflow: scroll;
+     #history {
+         width: 100%;
+         margin: 0 auto;
+         overflow: scroll;
     }
-
-    #frenchies-history {
-        margin-left: 0;
-        padding-left: 5px;
-        width: 40%;
-        height: 0;
+     #frenchies-history {
+         margin-left: 0;
+         padding-left: 5px;
+         width: 40%;
+         height: 0;
     }
-
-    #borg-history {
-        margin-right: 0;
-        padding-right: 5px;
-        width: 40%;
-        height: 0;
+     #borg-history {
+         margin-right: 0;
+         padding-right: 5px;
+         width: 40%;
+         height: 0;
     }
-
-    .frenchies-history-heading, .borg-history-heading {
-        width: inherit;
+     .frenchies-history-heading, .borg-history-heading {
+         width: inherit;
     }
-
-    .frenchies-history-heading h2, .borg-history-heading h2 {
-        width: 100%;
-        text-align: center;
-        font-size: 50%;
+     .frenchies-history-heading h2, .borg-history-heading h2 {
+         width: 100%;
+         text-align: center;
+         font-size: 50%;
     }
-
-    .frenchies-history-heading p, .borg-history-heading p {
-        text-align: center;
-        padding: 0 20px;
-        font-size: small;
+     .frenchies-history-heading p, .borg-history-heading p {
+         text-align: center;
+         padding: 0 20px;
+         font-size: small;
     }
 }
-
-
 /* For small screen sizes below 800px width */
-@media screen and (max-width: 800px) {
-    #gallery-images {
-        column-count: 2;
+ @media screen and (max-width: 800px) {
+     #gallery-images {
+         column-count: 2;
     }
-
-    #clongriffin-collective > div {
-        width: 100%;
-        clear: both;
-        height: 7px;
-        padding: 0;
+     #clongriffin-collective > div {
+         width: 100%;
+         clear: both;
+         height: 7px;
+         padding: 0;
     }
-
-    #main-cover {
-        left: 25px;
-        top: 100px;
-        width: 300px;
+     #main-cover {
+         left: 25px;
+         top: 100px;
+         width: 300px;
     }
-
-    #menu {
-        font-size: 70%;
-        float: left;
+     #menu {
+         font-size: 70%;
+         float: left;
     }
-
-    #history {
-        width: 100%;
-        margin: 0 auto;
-        overflow: scroll;
+     #history {
+         width: 100%;
+         margin: 0 auto;
+         overflow: scroll;
     }
-
-    #frenchies-history {
-        margin-left: 0;
-        width: 45%;
-        height: 0;
+     #frenchies-history {
+         margin-left: 0;
+         width: 45%;
+         height: 0;
     }
-
-    #borg-history {
-        margin-right: 0;
-        width: 45%;
-        height: 0;
+     #borg-history {
+         margin-right: 0;
+         width: 45%;
+         height: 0;
     }
-
-    .frenchies-history-heading, .borg-history-heading {
-        width: inherit;
+     .frenchies-history-heading, .borg-history-heading {
+         width: inherit;
     }
-
-    .frenchies-history-heading h2, .borg-history-heading h2 {
-        width: 100%;
-        text-align: center;
-        font-size: 50%;
+     .frenchies-history-heading h2, .borg-history-heading h2 {
+         width: 100%;
+         text-align: center;
+         font-size: 50%;
     }
-
-    .frenchies-history-heading p, .borg-history-heading p {
-        text-align: center;
-        padding: 0 20px;
-        font-size: small;
+     .frenchies-history-heading p, .borg-history-heading p {
+         text-align: center;
+         padding: 0 20px;
+         font-size: small;
     }
 }
-
 /* History */
-
-#history {
-    height: 1000px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    display: inline-block;
+ #history {
+     height: 1000px;
+     margin-top: 10px;
+     margin-bottom: 50px;
+     display: inline-block;
 }
-
-#frenchies-history {
-    padding-top: 30px;
-    padding-left: 100px;
-    width: 40%;
-    float: left;
+ #frenchies-history {
+     padding-top: 30px;
+     padding-left: 100px;
+     width: 40%;
+     float: left;
 }
-
-.frenchies-history-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+ .frenchies-history-heading {
+     width: 60%;
+     float: left;
+     line-height: 20px;
+     clear: both;
+     margin-bottom: 50px;
 }
-
-.frenchies-history-heading h2 {
-    font-size: 100%;
+ .frenchies-history-heading h2 {
+     font-size: 100%;
 }
-
-#borg-history {
-    padding-top: 30px;
-    padding-right: 100px;
-    width: 40%;
-    float: right;
+ #borg-history {
+     padding-top: 30px;
+     padding-right: 100px;
+     width: 40%;
+     float: right;
 }
-
-.borg-history-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+ .borg-history-heading {
+     width: 60%;
+     float: right;
+     line-height: 20px;
+     clear: both;
+     margin-bottom: 50px;
 }
-
-.borg-history-heading h2 {
-    font-size: 100%;
+ .borg-history-heading h2 {
+     font-size: 100%;
 }
