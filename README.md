@@ -78,3 +78,25 @@ This site has been created for Star Trek fans Frenchies lovers. Due to Frenchies
 
 ### Known bugs
 - History page meadia query for screen sizes below 500px. Shown text into history section is not correctly aligned.
+
+### Lighthouse
+
+Mobile:
+
+![Mobile](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/lighthose_mobile.png)
+
+Desktop:
+
+![Desktop](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/lighthose_desktop.png)
+
+## Deployment
+Github has been used to deploy this site.
+
+1. Log in to GitHub
+2. In the repository section, select the project repository named "love-frenchies"
+3. In the top menu located select 'Settings'
+4. Click 'Pages' on the left menu
+5. In the source section, select branch 'main' and click "Save"
+6. The published site URL will be returned as below:
+
+![deploy](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/deploy.png)
