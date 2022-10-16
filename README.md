@@ -65,13 +65,12 @@ This is a four pages site:
 ### Features to Implement
 
 - A "Videos" section with funny videos collected during Sunday's meetings.
-- A "History" page with info about Frenchies and Borg history.
 
 ## Testing
 
     - This site has been tested on Firefox, Chrome, and Edge browsers.
     - It has also been tested on tablet, smartphone, and using dev tools to validate it is responsive looking good on any screen size.
-    - The contact form has been tested to be sure all required fields are mandatory and only valid email address are accepted into the "Email Address" field. Submit button has been checked to verify it works as expected.
+    - The contact form has been tested to be sure all required fields are mandatory and only valid email addresses are accepted into the "Email Address" field. Submit button has been checked to verify it works as expected.
 
 ### HTML and CSS validation
 
@@ -133,4 +132,32 @@ Github has been used to deploy this site.
 5. In the source section, select branch 'main' and click "Save"
 6. The published site URL will be returned as below:
 
-![Deploy](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/deploy.png)
+![Deploy](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+
+## Credits
+
+### Code and structure
+
+I created this site based on Code Insitute example "Love Running" site. I inspired to it for the main structure, also reusing some part of that code.
+
+- [Love Running](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/deploy.png)
+
+
+### Content
+
+- Content used into "History" page has been taken from [Wikipedia](https://https://en.wikipedia.org/).
+- Content used into Home page section Community -> Collective has been taken from [IMDB](https://www.imdb.com/title/tt0708968/characters/nm0000550).
+
+### Images
+
+Some images are related to my frenchie Kali and have been taken by myself. The other images have been taken from the following websites:
+
+- https://wallpapercave.com
+- https://wallpaperboat.com
+- https://www.pawtracks.com
+- https://doggosportsgear.com
+- https://media-exp1.licdn.com
+- https://www.frenchbulldogbreed.net
+- https://doc-0g-c4-docs.googleusercontent.com
+- https://images3.alphacoders.com
+- https://www.pixelstalk.net
