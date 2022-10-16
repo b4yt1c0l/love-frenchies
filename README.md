@@ -77,4 +77,4 @@ This site has been created for Star Trek fans Frenchies lovers. Due to Frenchies
 ![CSS Validation](https://github.com/b4yt1c0l/love-frenchies/blob/main/docs/images/css_validator_1.png)
 
 ### Known bugs
-No known bugs.
+- History page meadia query for screen sizes below 400px. Shown text into history section is not correctly aligned.
